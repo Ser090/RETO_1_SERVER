@@ -7,7 +7,7 @@ package server;
 
 /**
  *
- * @author 2dam
+ * @author Sergio
  */
 public class Worker {
 
