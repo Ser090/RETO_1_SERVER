@@ -34,9 +34,18 @@ public class Worker implements Runnable, Signable {
         try (ObjectOutputStream outputStream = new ObjectOutputStream(clienteSocket.getOutputStream());
                 ObjectInputStream inputStream = new ObjectInputStream(clienteSocket.getInputStream())) {
 
-        } catch (IOException ex) {
-            Logger.getLogger(Worker.class.getName()).log(Level.SEVERE, null, ex);
+            Object mensajeObject = inputStream.readObject();
+
+
+        } catch (IOException | ClassNotFoundException ex) {
+            if (ex instanceof IOException) {
+                Logger.getLogger(Worker.class.getName()).log(Level.SEVERE, null, ex);
+            } else {
+                Logger.getLogger(Worker.class.getName()).log(Level.SEVERE, null, ex);
+            }
+
         }
+
     }
 
     @Override
