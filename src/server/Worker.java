@@ -11,7 +11,7 @@ import java.io.ObjectOutputStream;
 import java.net.Socket;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import utilidades.Mensaje;
+import utilidades.Message;
 import utilidades.Signable;
 import utilidades.User;
 
@@ -40,12 +40,12 @@ public class Worker implements Runnable, Signable {
     }
 
     @Override
-    public Mensaje signIn(User user) {
+    public Message signIn(User user) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public Mensaje signUp(User user) {
+    public Message signUp(User user) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 

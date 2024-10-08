@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package dbserver;
-import utilidades.Mensaje;
+import utilidades.Message;
 import utilidades.User;
 /**
  *
@@ -12,11 +12,11 @@ import utilidades.User;
  */
 public class Dao implements Signable {
 
-    public Mensaje signIn(User mensaje) {
+    public Message signIn(User mensaje) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    public Mensaje signUp(User mensaje) {
+    public Message signUp(User mensaje) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
