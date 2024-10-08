@@ -5,6 +5,7 @@
  */
 package dbserver;
 import utilidades.Message;
+import utilidades.Signable;
 import utilidades.User;
 /**
  *

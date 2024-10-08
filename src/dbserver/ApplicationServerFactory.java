@@ -9,6 +9,6 @@ package dbserver;
  *
  * @author 2dam
  */
-public interface Signable {
+public class ApplicationServerFactory {
 
 }

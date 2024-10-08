@@ -9,6 +9,6 @@ package dbserver;
  *
  * @author 2dam
  */
-public class PoolConexiones {
+public class PostgresConnectionPool {
 
 }
