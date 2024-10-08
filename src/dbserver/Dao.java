@@ -4,8 +4,11 @@
  * and open the template in the editor.
  */
 package dbserver;
+
 import utilidades.Message;
+import utilidades.Signable;
 import utilidades.User;
+
 /**
  *
  * @author Urko

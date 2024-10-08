@@ -9,6 +9,6 @@ package dbserver;
  *
  * @author 2dam
  */
-public interface Closeable {
+public class PostgresConnectionPool {
 
 }
